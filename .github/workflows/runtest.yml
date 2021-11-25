@@ -36,6 +36,6 @@ jobs:
       - name: install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install PyQt5 pytest pytest-qt pytest-xvfb
+          pip install PyQt5 pytest pytest-qt pytest-xvfb opencv-python
 
       - run: pytest
