@@ -38,4 +38,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install PyQt5 pytest pytest-qt pytest-xvfb opencv-python
 
-      - run: pytest
+      - run: python3 no_pytest.py
